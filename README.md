@@ -21,18 +21,16 @@ Análisis de datos de extremo a extremo sobre una base de datos relacional
 de Fórmula 1 con 12 tablas e información histórica de 1950 a 2025,
 generada con Mockaroo. Se ejecutaron etapas de ingesta, limpieza,
 análisis exploratorio, consultas SQL, clustering K-means y dashboard
-público, todo en Databricks Free Edition.
+público, todo en Databricks Free Edition, todo el proceso está documentado en 6 notebooks.
 
 ---
 
 ## Estructura de notebooks
 
-| Notebook | Descripción |
-
-| 01_ingesta_datos | Carga de los 12 CSVs al Volume y registro como tablas Delta |
-| 02_limpieza_datos | Verificación de nulos, duplicados, tipos y rangos numéricos |
-| 03_analisis_exploratorio | Estadísticas descriptivas, distribuciones y rankings de escuderías |
-| 04_analisis_sql | 6 consultas SQL sobre rendimiento de pilotos, patrocinio y circuitos |
-| 05_analitica_avanzada | Clustering K-means (k=3) de las 21 escuderías |
-| 06_preparacion_dashboard | Tablas resumen para el dashboard público |
+- 01_ingesta_datos : Carga de los 12 CSVs al Volume y registro como tablas Delta
+- 02_limpieza_datos : Verificación de nulos, duplicados, tipos y rangos numéricos
+- 03_analisis_exploratorio : Estadísticas descriptivas, distribuciones y rankings de escuderías
+- 04_analisis_sql : 6 consultas SQL sobre rendimiento de pilotos, patrocinio y circuitos
+- 05_analitica_avanzada : Clustering K-means (k=3) de las 21 escuderías
+- 06_preparacion_dashboard : Tablas resumen para el dashboard público
 
