@@ -17,7 +17,7 @@
 ---
 
 ## Descripción del proyecto
-Análisis de datos de extremo a extremo sobre una base de datos relacional
+Análisis de datos sobre una base de datos relacional
 de Fórmula 1 con 12 tablas e información histórica de 1950 a 2025,
 generada con Mockaroo. Se ejecutaron etapas de ingesta, limpieza,
 análisis exploratorio, consultas SQL, clustering K-means y dashboard
